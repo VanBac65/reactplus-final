@@ -6,6 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { schemaRegister } from '../../Utils/Schema';
 import { postUser } from '../../Services/apiUser';
 import banner from '../../assets/Images/Done.png'
+
 import './RegisterContainer.css'
 
 const { Title } = Typography;

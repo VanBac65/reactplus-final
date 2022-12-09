@@ -42,7 +42,7 @@ export default function LoginContainer() {
                     render={({ field }) => <Input.Password className='inputInfo'{...field} placeholder='Enter password' status={errors.email ? 'error' : ''} />}
                 />
                 {errors.password && <p>{errors.password.message}</p>}
-                <Button htmlType='submit'>Sign In</Button>
+                <Button htmlType='submit'>Sign In </Button>
             </form>
             <span>Already have an account ? <Link to='/register'>Sign Up</Link></span>
         </div>
