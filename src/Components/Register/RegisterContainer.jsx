@@ -13,7 +13,7 @@ const { Title } = Typography;
 
 export default function RegisterContainer() {
   const navigate = useNavigate()
-  const [checkPass, setCheckPass] = useState(false)
+  const [checkPass, setCheckPass] = useState(true)
   const [infoRegister, setUserRegister] = useState()
   const { control, handleSubmit, formState: { errors } } = useForm({
     mode: 'onBlur',
@@ -42,11 +42,11 @@ export default function RegisterContainer() {
         email: data.email,
         password: data.password
       })
-      setCheckPass(false)
+      setCheckPass(true)
     }
     else {
       alert('Mật khẩu nhập chưa trùng!')
-      setCheckPass(true)
+      setCheckPass(false)
     }
   };
 
@@ -77,7 +77,7 @@ export default function RegisterContainer() {
         <Controller
           name='confirmPassword'
           control={control}
-          render={({ field }) => <Input.Password className='inputInfo' {...field} placeholder='Confirm Password' status={errors.confirmPassword || checkPass && 'error'} />}
+          render={({ field }) => <Input.Password className='inputInfo' {...field} placeholder='Confirm Password' status={(errors.confirmPassword || !checkPass) && 'error'} />}
         />
         <Button htmlType='submit'>Register</Button>
       </form>
