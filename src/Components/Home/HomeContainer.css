@@ -1,0 +1,33 @@
+.home {
+    height: 100vh;
+}
+
+.home .image {
+    padding-top: 40%;
+}
+
+.home .title {
+    margin-top: 0 !important;
+}
+
+.home .description {
+    display: block;
+    max-width: 80% !important;
+    margin: auto;
+}
+
+.home a {
+    display: block;
+    margin: auto;
+    padding: 15px 0;
+    text-decoration: none;
+    margin-top: 30% !important;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 6%;
+    max-width: 80%;
+    max-height: 56px;
+    background-image: linear-gradient(to left,#D8605B 0%, #F4C27F 110%);
+    border-radius: 50px;
+}

@@ -1,0 +1,67 @@
+.login {
+    height: 100vh;
+    text-align: center;
+}
+
+.login .image {
+    margin-top: 25%;
+}
+
+.login .title {
+    max-width: 60%;
+    margin: 0 auto !important;
+    font-weight: 400;
+}
+
+.login .title-1 {
+    max-width: 30%;
+}
+
+.login .description {
+    font-size: 12px;
+    text-align: center;
+    display: block;
+}
+
+.login input[name='email'] {
+    margin-top: 40px;
+}
+
+.login .inputInfo {
+    margin-top: 20px;
+    max-width: 80%;
+    padding: 12px 25px;
+    border-radius: 22px;
+}
+
+.login button {
+    bottom: 0;
+    border: none;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 6%;
+    width: 80%;
+    height: 56px;
+    background-image: linear-gradient(to left, #D8605B 0%, #F4C27F 110%);
+    border-radius: 50px;
+}
+
+.login a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #D8605B;
+}
+
+.login p {
+    padding-left: 15%;
+    color: red;
+    margin: 5px;
+    text-align: start;
+}

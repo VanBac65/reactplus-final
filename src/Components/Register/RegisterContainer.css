@@ -1,0 +1,52 @@
+.register {
+    height: 100vh;
+    text-align: center;
+}
+
+.register .image {
+    margin-top: 25%;
+}
+
+.register .title {
+    max-width: 60%;
+    margin: auto;
+    font-weight: 400;
+}
+
+.register .description {
+    font-size: 12px;
+    text-align: center;
+    display: block;
+}
+
+.register .inputInfo {
+    margin-top: 15px;
+    max-width: 80%;
+    padding: 12px 25px;
+    border-radius: 22px;
+}
+
+.register button {
+    bottom: 0;
+    border: none;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 6%;
+    width: 80%;
+    height: 56px;
+    background-image: linear-gradient(to left,#D8605B 0%, #F4C27F 110%);
+    border-radius: 50px;
+}
+
+.register a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #D8605B;
+}
